@@ -6,5 +6,10 @@ namespace dendrocnide_eden
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("hi, are you aware you're a cat?");
+        }
     }
 }
